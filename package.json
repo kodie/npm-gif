@@ -1,0 +1,43 @@
+{
+  "name": "npm-gif",
+  "version": "1.0.0",
+  "description": "Replace NPM install's progress bar with a GIF",
+  "keywords": [
+    "npm",
+    "install",
+    "gif",
+    "image",
+    "img",
+    "progress",
+    "bar"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/npm-gif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/npm-gif/issues"
+  },
+  "homepage": "https://github.com/kodie/npm-gif",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "cross-spawn-async": "^2.2.5",
+    "global-npm": "^0.3.0",
+    "minimist": "^1.2.0",
+    "mock-require": "^2.0.2",
+    "progress-img": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
