@@ -2,47 +2,47 @@
 
 const ProgressImg = require('progress-img')
 
-ProgressImg.prototype.disable = function() {
+ProgressImg.prototype.disable = function () {
   return this
 }
 
-ProgressImg.prototype.enable = function() {
+ProgressImg.prototype.enable = function () {
   return this
 }
 
-ProgressImg.prototype.getWidth = function() {
+ProgressImg.prototype.getWidth = function () {
   return this
 }
 
-ProgressImg.prototype.hide = function(cb) {
+ProgressImg.prototype.hide = function (cb) {
   return this
 }
 
-ProgressImg.prototype.isEnabled = function() {
+ProgressImg.prototype.isEnabled = function () {
   return this
 }
 
-ProgressImg.prototype.pulse = function(subsection) {
+ProgressImg.prototype.pulse = function (subsection) {
   return this
 }
 
-ProgressImg.prototype.setTheme = function(theme) {
+ProgressImg.prototype.setTheme = function (theme) {
   return this
 }
 
-ProgressImg.prototype.setTemplate = function(themes) {
+ProgressImg.prototype.setTemplate = function (themes) {
   return this
 }
 
-ProgressImg.prototype.setThemeset = function(themes) {
+ProgressImg.prototype.setThemeset = function (themes) {
   return this
 }
 
-ProgressImg.prototype.setWriteTo = function(writeTo, tty) {
+ProgressImg.prototype.setWriteTo = function (writeTo, tty) {
   return this
 }
 
-ProgressImg.prototype.show = function(section, completed) {
+ProgressImg.prototype.show = function (section, completed) {
   this._showing = true
 
   var opts = {}
