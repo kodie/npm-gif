@@ -9,9 +9,12 @@
 
 Replace NPM install's progress bar with a GIF!
 
-*Currently only supported on [iTerm >=3](https://www.iterm2.com/downloads.html).*
-
 **NOTE: This package should be considered experimental.**
+
+## Requirements
+* [Node.js](https://nodejs.org) v4.0 or higher
+* [NPM](https://npmjs.com) v3.2 or higher
+* [iTerm2](https://iterm2.com) v3.0 or higher
 
 ## Installation
 ```shell
