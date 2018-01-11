@@ -14,7 +14,8 @@ Replace NPM install's progress bar with a GIF!
 ## Requirements
 * [Node.js](https://nodejs.org) v4.0 or higher
 * [NPM](https://npmjs.com) v3.2 or higher
-* [iTerm2](https://iterm2.com) v3.0 or higher
+
+*[iTerm2](https://iterm2.com) v2.9 or higher is required to display actual images. Otherwise an [ASCII](https://en.wikipedia.org/wiki/ASCII_art) version of the images will be displayed.*
 
 ## Installation
 ```shell
